@@ -15,7 +15,8 @@
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
 
-
+//I'm documenting something for the code
+	
 	<target name="jar">
 		<mkdir dir="build/jar" />
 		<jar destfile="build/jar/xunit-example.jar" basedir="build/classes">
